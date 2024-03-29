@@ -1,0 +1,218 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html,
+body,
+html * {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+:root {
+    --hh:#041A40;
+    --gg:#ffd936;
+}
+body{
+    scroll-behavior: smooth;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    border-radius: 50px;
+    width: 80px;
+    margin-left: 50px;
+}
+
+.header nav {
+    margin-right: 50px;
+}
+.header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.header ul a:hover{
+    color: var(--gg);
+    font-size: 25px;
+}
+
+.coeur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 120px 50px 120px;
+}
+.coeur h1{
+    font-size: 70px;
+    color: #ffd936;
+}
+
+.coeur h2{
+    font-size: 50px;
+}
+
+.coeur button {
+    font-size: 33px;
+    padding: 7px;
+    background-color: var(--gg);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.coeur img {
+    width: 450px;
+    border-radius: 50px 20px;
+    border: none;
+}
+.About-Us {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+}
+
+.About-Us img {
+    width: 450px;
+    border-radius: 50px 20px;
+    border: none;
+}
+.About-Us-Writing {
+    margin: 30px 0px 0px 50px;
+}
+
+.About-Us p {
+    font-size: 20px;
+    margin-top: 2px;
+}
+#g {
+    color: #ffd936;
+    font-weight: 600;
+    font-size: 25px;
+}
+.About-Us h1 {
+margin-bottom: -3px;
+}
+
+.About-Us button {
+    font-size: 33px;
+        padding: 7px;
+        background-color: var(--gg);
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+}
+
+.Contact-Us{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ #sm a  {
+    text-decoration: none;
+    color: #010101;
+    padding: 15px;
+   
+}
+
+#Menu-Links a  {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    
+}
+
+#Quick-Links a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 7px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+#Contact li  {
+    color: black;
+        margin-top: 7px;
+        font-size: 19px;
+        font-weight: 500;
+}
+.Menu-total{
+    margin-top: 200px;
+}
+.Menu-total h1 {
+    font-size: 40px;
+}
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.Menu img {
+    width: 300px;
+    border-radius: 50px 20px;
+    border: none;
+}
+
+.MENU-Chikeen ,.MENU-Double , .MENU-Onion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border: 0PX solid rgb(133, 132, 132); 
+    border-radius: 50px 20px ;
+    overflow-y: hidden;
+}
+
+.MENU-Chikeen h3 ,.MENU-Double h3 , .MENU-Onion h3 {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.Menu i {
+  font-size: 50px;
+  color: #ffd936;
+  cursor: pointer;
+  transform: translatex(125PX) translateY(47PX);
+
+
+}
+.span{
+    color: #ffd936;
+}
+.Service-totale{
+    margin-top: 140px;
+}
+.Service{
+   display: flex; 
+   justify-content: space-evenly;
+   align-items: center;
+}
+.Service img{
+    border-radius: 10px;
+   align-items: center;
+
+}
+
+.Service p {
+    font-size: 20px;
+}
